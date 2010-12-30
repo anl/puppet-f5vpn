@@ -7,5 +7,6 @@ define f5vpn::fetch_source() {
     command => "/usr/bin/wget ${url_base}/${title}",
     creates => "/root/f5vpn-build/${title}",
     require => File["/root/f5vpn-build"],
+    notify => Exec["build f5vpn"],
   }
 }
