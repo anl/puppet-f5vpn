@@ -1,0 +1,5 @@
+A Puppet module to install James Y. Knight's f5vpn-login software.
+
+f5vpn-login itself may be found at http://fuhm.net/software/f5vpn-login/
+
+This module is currently tested only on Ubuntu, although it may work with limited or no modifications on other Linux distros.
